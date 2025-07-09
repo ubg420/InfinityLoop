@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style type="text/css">
+      @font-face {
+        font-family: 'Poppins';
+        src: url('Poppins-Regular.ttf') format('truetype');
+      }
+      @font-face {
+        font-family: 'Questrial';
+        src: url('Questrial-Regular.ttf') format('truetype');
+      }
+      @font-face {
+        font-family: 'Montserrat';
+        src: url('Montserrat-Regular.ttf') format('truetype');
+      }
+    </style>
+    <meta charset="utf-8" />
+    <script src="poki-sdk.js"></script>
+
+    <style>
+      body {
+        margin: 0;
+        background: #d9dddc;
+        overflow: hidden;
+      }
+      #adContainer {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%) scale(0.75);
+      }
+      /* @media screen and (min-width: 1024px) {
+        #phaser-game {
+          max-width: 700px;
+          margin: 0 auto;
+        }
+      } */
+    </style>
+  </head>
+  <body>
+    <div style="position: absolute; opacity: 0; font-family: Poppins;">
+      .
+    </div>
+    <div style="position: absolute; opacity: 0; font-family: Questrial;">
+      .
+    </div>
+    <div id="phaser-game"></div>
+    <div id="adContainer" style=display:none></div>
+  <script type="text/javascript" src="bundle.min.js"></script></body>
+</html>
